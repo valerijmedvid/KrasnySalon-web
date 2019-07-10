@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Pricing from './views/Pricing.vue'
+import Contact from './views/Contact.vue'
 
 Vue.use(Router)
 
@@ -27,7 +28,7 @@ export default new Router({
     {
       path: '/kontakt',
       name: 'contact',
-      component: Home
+      component: Contact
     },
     
     {
