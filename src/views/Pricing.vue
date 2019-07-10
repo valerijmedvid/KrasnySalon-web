@@ -20,7 +20,7 @@
       </tr>
       <tr v-else class="empty"><td><br></td><td></td></tr>
     </table>
-
+    <p></p>
   </article>
 </template>
 

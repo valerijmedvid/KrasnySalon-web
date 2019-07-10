@@ -46,9 +46,42 @@
         </ul>
       </div>
     </div>
+
+
     <div class="container">
       <router-view/>
     </div>
+
+    <footer>
+      <div class="container">
+        <div class="foot left">
+          <p>Adresa salonu:
+            <br> Palackého tř. 49/14
+            <br> Pasáž Grand 2. patro
+            <br> Nymburk 288 02
+
+          </p>
+        </div>
+        <div class="foot left">
+          <p>Fakturační adresa:
+            <br> Dominika Urbanová
+            <br> Kladenská 604
+            <br> Přelouč 535 01
+          </p>
+        </div>
+        <div class="foot left">
+          <p>Kontaktní údaje:<br>
+            Dominika Urbanová<br>
+            <a href="tel:+420606025605">+420 606 025 605</a>
+            <br>
+            <a href="mailto:dominika@krasnysalon.cz">dominika@krasnysalon.cz</a>
+          </p>
+        </div>
+        <div class="foot left">
+          <p>Copyright&nbsp;©&nbsp; 2019</p>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
