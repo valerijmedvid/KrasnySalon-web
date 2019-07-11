@@ -6,11 +6,12 @@
 				Pokročilá technika prodlužování řas, odlišná od metody prodlužování „řasa na řasu“. Liší se tím, že se na jednu řasu aplikuje
 				2 a více ultra lehkých syntetických řas, které zbytečně nezatěžují přírodní řasy. Jsou jemné, vypadají přirozeně a zároveň
 				tvoří dokonalý objem. Pracujeme pouze s kvalitním materiálem od značky Blink Lashes.</p>
+        
 			<h2>Pro koho jsou prodloužené řasy vhodné?</h2>
 			<p>Prodloužené řasy jsou vhodné i pro klientky, které mají vlastní řasy krátké nebo jemné a chtějí docílit mnohonásobně většího
 				objemu. Jsou odolné vůči vodě, to znamená, že běžné aktivity jako sport, sprchování či plavání nemají na jejich vzhled
 				a pevnost vliv.</p>
-				<a href="@/assets/images/lashes/rasy4.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
+      <a href="@/assets/images/lashes/rasy4.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
 				<img src="@/assets/images/lashes/rasy4.jpg" alt="rasy" class="right">
 			</a>
 			
@@ -26,6 +27,7 @@
 			<a href="@/assets/images/lashes/rasy2.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
 				<img src="@/assets/images/lashes/rasy2.jpg" alt="rasy" class="left">
 			</a>
+
 			<h2>Jak o řasy pečovat?</h2>
 			<p>Prvních 24 hodin po aplikaci se vyhněte kontaktu s vodou, 48 hodin nenavštěvujte saunu. Řasové spoje by se po tak krátké
 				době mohly narušit. Řasy pročesávejte speciálním kartáčkem, který obdržíte při první aplikaci. V žádném případě na prodloužené
@@ -38,15 +40,17 @@
 			<a href="@/assets/images/lashes/rasy3.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
 				<img src="@/assets/images/lashes/rasy3.jpg" alt="rasy" class="right">
 			</a>
+
 			<h2>UPOZORNĚNÍ PRO KLIENTKY!</h2>
 			<p>Ráda bych všechny klientky upozornila, že pokud přicházíte s řasami od jiné stylistky, doplnění provádíme až po osobní
 				konzultaci, obzvlášť pokud máte prodloužení metodou řasa na řasu. Je totiž možné, že řasy nebudou v takovém stavu, který
 				umožní plnohodnotné doplnění. Není dobré mít na očích různé typy řas a adheziv. Po šetrném odstranění Vám aplikujeme
 				nový set řas s ohledem na stav řas přírodních.</p>
-			<p>
-				Cena aplikace nového setu objemového prodloužení řas je 990,- , v případě odstraňování práce jiné stylistky je to 1100,-
+			
+      <p>Cena aplikace nového setu objemového prodloužení řas je 990,- , v případě odstraňování práce jiné stylistky je to 1100,-
 				a doba aplikace může trvat až 3 hodiny. Cena doplnění se odvíjí podle týdnů. </p>
-				<a href="@/assets/images/lashes/rasy6.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
+
+      <a href="@/assets/images/lashes/rasy6.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
 				<img src="@/assets/images/lashes/rasy6.jpg" class="gallery" alt="rasy" >
 			</a>
 			<a href="@/assets/images/lashes/rasy8.jpg" data-lightbox="rasy" data-title="Prodlužování řas">

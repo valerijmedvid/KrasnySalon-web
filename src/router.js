@@ -5,6 +5,7 @@ import Pricing from './views/Pricing.vue'
 import Contact from './views/Contact.vue'
 
 import Lashes from './views/Lashes.vue'
+import Wax from './views/Wax.vue'
 
 Vue.use(Router)
 
@@ -36,7 +37,7 @@ export default new Router({
     {
       path: '/parafinovy-zabal',
       name: 'wax',
-      component: Home
+      component: Wax
     },
     {
       path: '/kosmetika',
