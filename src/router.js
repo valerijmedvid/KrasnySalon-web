@@ -6,6 +6,7 @@ import Contact from './views/Contact.vue'
 
 import Lashes from './views/Lashes.vue'
 import Wax from './views/Wax.vue'
+import Cosmetic from './views/Cosmetic.vue'
 
 Vue.use(Router)
 
@@ -41,8 +42,8 @@ export default new Router({
     },
     {
       path: '/kosmetika',
-      name: 'wellness',
-      component: Home
+      name: 'cosmetic',
+      component: Cosmetic
     },
   ]
 })

@@ -10,7 +10,7 @@
             <router-link to="/">Úvod</router-link> 
           </li>
           <li class="dropdown">
-            <a href="objemove-prodluzovani-ras" onclick="javascript:void(0)">Služby</a>
+            <a>Služby</a>
             <div class="dropdown-content">
               <router-link to="/objemove-prodluzovani-ras">Objemové prodlužování řas</router-link>
               <router-link to="/parafinovy-zabal">Parafínový zábal na ruce</router-link>
@@ -87,5 +87,10 @@
 
 <style lang="scss">
 @import "./assets/scss/style.scss";
+
+a {
+  cursor: pointer;
+}
+
 
 </style>

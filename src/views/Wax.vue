@@ -1,5 +1,5 @@
 <template>
-<article>
+	<article>
 		<h1>Parafínový zábal na ruce</h1>
 		<div class="services">
 			<h2>Co je parafín?</h2>

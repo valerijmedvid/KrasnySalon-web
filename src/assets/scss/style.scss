@@ -109,7 +109,7 @@ p {
 	color: #fff;
 }
 
-.menu a:hover {
+.menu a:hover, .router-link-exact-active {
 	background: #771431;
 }
 
