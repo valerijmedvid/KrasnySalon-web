@@ -6,48 +6,25 @@
           <router-link to="/">logo</router-link> 
         </p>
         <ul class="menu">
-          <li>
-            <router-link to="/">Úvod</router-link> 
-          </li>
-          <li class="dropdown">
-            <router-link to="/sluzby">Služby</router-link>
-            <div class="dropdown-content">
-              <router-link to="/sluzby/objemove-prodluzovani-ras">Objemové prodlužování řas</router-link>
-              <router-link to="/sluzby/parafinovy-zabal">Parafínový zábal na ruce</router-link>
-              <router-link to="/sluzby/kosmetika">Kosmetika SynCare</router-link>
+          <li v-for="menu in $router.options.routes" :key="menu.index" :class="{ dropdown: 'children' in menu}" v-if="!menu.metadata.hide">
+            <router-link :to="menu.path">{{ menu.metadata.title }}</router-link>
+            <div v-if="'children' in menu" class="dropdown-content">
+              <router-link v-for="submenu in menu.children" :key="submenu.index" :to="submenu.path">{{ submenu.metadata.title }}</router-link>
             </div>
-          </li>
-          <li>
-            <router-link to="/cenik">Ceník</router-link>
-          </li>
-          <li>
-            <router-link to="/kontakt">Kontakt</router-link>
           </li>
         </ul>
         <ul class="menu2">
-          <li>
-            <router-link to="/">Úvod</router-link> 
-          </li>
-          <li>
-            <router-link to="/sluzby/objemove-prodluzovani-ras">Objemové prodlužování řas</router-link>
-          </li>
-          <li>
-            <router-link to="/sluzby/parafinovy-zabal">Parafínový zábal na ruce</router-link>
-          </li>
-          <li>
-            <router-link to="/sluzby/kosmetika">Kosmetika SynCare</router-link>
-          </li>
-          <li>
-            <router-link to="/cenik">Ceník</router-link>
-          </li>
-          <li>
-            <router-link to="/kontakt">Kontakt</router-link>
+          <li v-for="menu in $router.options.routes" :key="menu.index" v-if="!menu.metadata.hide">
+            <router-link v-if="menu.name != 'services'" :to="menu.path">{{ menu.metadata.title }}</router-link>
+            <div v-else>
+              <li v-for="submenu in menu.children" :key="submenu.index">
+                <router-link  :to="submenu.path">{{ submenu.metadata.title }}</router-link>
+              </li>
+            </div>
           </li>
         </ul>
       </div>
     </div>
-
-
     <div class="container">
       <router-view/>
     </div>

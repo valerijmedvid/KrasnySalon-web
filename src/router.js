@@ -9,6 +9,8 @@ import Lashes from './views/Lashes.vue'
 import Wax from './views/Wax.vue'
 import Cosmetic from './views/Cosmetic.vue'
 
+import PageNotFound from './views/PageNotFound.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -18,40 +20,52 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
-    },
-    {
-      path: '/cenik',
-      name: 'pricing',
-      component: Pricing
+      component: Home,
+      metadata: {title: "Úvod"}
     },
     {
       path: '/sluzby',
       name: 'services',
       component: Services,
       redirect: {name: 'lashes'},
+      metadata: {title: "Služby"},
       children: [
         {
-          path: 'objemove-prodluzovani-ras',
+          path: '/objemove-prodluzovani-ras',
           name: 'lashes',
-          component: Lashes
+          component: Lashes,
+          metadata: {title: "Objemové prodlužování řas"}
         },
         {
-          path: 'parafinovy-zabal',
+          path: '/parafinovy-zabal',
           name: 'wax',
-          component: Wax
+          component: Wax,
+          metadata: {title: "Parafínový zábal na ruce"}
         },
         {
-          path: 'kosmetika',
+          path: '/kosmetika',
           name: 'cosmetic',
-          component: Cosmetic
+          component: Cosmetic,
+          metadata: {title: "Kosmetika SynCare"}
         },
       ]
     },
     {
+      path: '/cenik',
+      name: 'pricing',
+      component: Pricing,
+      metadata: {title: "Ceník"}
+    },
+    {
       path: '/kontakt',
       name: 'contact',
-      component: Contact
+      component: Contact,
+      metadata: {title: "Kontakt"}
     },
+    {
+      path: '*',
+      component: PageNotFound,
+      metadata: {hide: true}
+    }
   ]
 })
