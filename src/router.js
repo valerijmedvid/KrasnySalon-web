@@ -4,6 +4,8 @@ import Home from './views/Home.vue'
 import Pricing from './views/Pricing.vue'
 import Contact from './views/Contact.vue'
 
+import Lashes from './views/Lashes.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -13,11 +15,6 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
-    },
-    {
-      path: '/sluzby',
-      name: 'services',
       component: Home
     },
     {
@@ -34,7 +31,7 @@ export default new Router({
     {
       path: '/objemove-prodluzovani-ras',
       name: 'lashes',
-      component: Home
+      component: Lashes
     },
     {
       path: '/parafinovy-zabal',
