@@ -39,6 +39,6 @@
 
 <script>
 export default {
-  name: "Wax"
+  name: 'Cleanset',
 }
 </script>

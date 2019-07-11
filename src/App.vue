@@ -10,11 +10,11 @@
             <router-link to="/">Úvod</router-link> 
           </li>
           <li class="dropdown">
-            <a>Služby</a>
+            <router-link to="/sluzby">Služby</router-link>
             <div class="dropdown-content">
-              <router-link to="/objemove-prodluzovani-ras">Objemové prodlužování řas</router-link>
-              <router-link to="/parafinovy-zabal">Parafínový zábal na ruce</router-link>
-              <router-link to="/kosmetika">Kosmetika SynCare</router-link>
+              <router-link to="/sluzby/objemove-prodluzovani-ras">Objemové prodlužování řas</router-link>
+              <router-link to="/sluzby/parafinovy-zabal">Parafínový zábal na ruce</router-link>
+              <router-link to="/sluzby/kosmetika">Kosmetika SynCare</router-link>
             </div>
           </li>
           <li>
@@ -29,13 +29,13 @@
             <router-link to="/">Úvod</router-link> 
           </li>
           <li>
-            <router-link to="/objemove-prodluzovani-ras">Objemové prodlužování řas</router-link>
+            <router-link to="/sluzby/objemove-prodluzovani-ras">Objemové prodlužování řas</router-link>
           </li>
           <li>
-            <router-link to="/parafinovy-zabal">Parafínový zábal na ruce</router-link>
+            <router-link to="/sluzby/parafinovy-zabal">Parafínový zábal na ruce</router-link>
           </li>
           <li>
-            <router-link to="/kosmetika">Kosmetika SynCare</router-link>
+            <router-link to="/sluzby/kosmetika">Kosmetika SynCare</router-link>
           </li>
           <li>
             <router-link to="/cenik">Ceník</router-link>
