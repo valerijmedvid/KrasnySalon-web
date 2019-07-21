@@ -1,5 +1,5 @@
 # frontend-krasnysalon
-Web page for beuty salon
+Web page for beauty salon
 
 ## Project setup
 ```
