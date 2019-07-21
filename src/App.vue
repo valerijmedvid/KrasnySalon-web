@@ -49,9 +49,9 @@
         <div class="foot left">
           <p>Kontaktní údaje:<br>
             Dominika Urbanová<br>
-            <a href="tel:+420606025605">+420 606 025 605</a>
+            <a href="tel:+420606025605" @click="onClick('zavolat')">+420 606 025 605</a>
             <br>
-            <a href="mailto:dominika@krasnysalon.cz">dominika@krasnysalon.cz</a>
+            <a href="mailto:dominika@krasnysalon.cz" @click="onClick('poslat mail')">dominika@krasnysalon.cz</a>
           </p>
         </div>
         <div class="foot left">
@@ -62,12 +62,26 @@
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    onClick(name){
+      this.$gtm.trackEvent({
+        event: "Tlacitko", // Event type [default = 'interaction'] (Optional)
+        category: 'FooterForm',
+        action: 'mouseClick',
+        label: name,
+        noninteraction: false // Optional
+      });
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 @import "./assets/scss/style.scss";
 
 a {
   cursor: pointer;
 }
-
-
 </style>

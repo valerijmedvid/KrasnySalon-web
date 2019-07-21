@@ -5,8 +5,8 @@
 
     <div class="contact">
       <p><strong>Dominika Urbanová</strong><br>
-      <a href="tel:+420606025605" onclick="dataLayer.push({'event':'tlacitko', 'name': 'zavolat'})">+420 606 025 605</a><br>
-      <a href="mailto:dominika@krasnysalon.cz" onclick="dataLayer.push({'event':'tlacitko', 'name': 'poslat mail'})">dominika@krasnysalon.cz</a><br>
+      <a href="tel:+420606025605" @click="onClick('zavolat')">+420 606 025 605</a><br>
+      <a href="mailto:dominika@krasnysalon.cz" @click="onClick('poslat mail')">dominika@krasnysalon.cz</a><br>
       <p><strong>IČO:</strong> 06443591</p>
     </div>
 
@@ -25,6 +25,17 @@
 
 <script>
 export default {
-  name: "Contact"
+  name: "Contact",
+  methods: {
+    onClick(name){
+      this.$gtm.trackEvent({
+        event: "Tlacitko", // Event type [default = 'interaction'] (Optional)
+        category: 'ContactForm',
+        action: 'mouseClick',
+        label: name,
+        noninteraction: false // Optional
+      });
+    }
+  }
 }
 </script>
