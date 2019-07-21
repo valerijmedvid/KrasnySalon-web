@@ -6,9 +6,9 @@
 
 			<p>Parafín je vosk získaný z ropy a obohacený o vitamin E. Používá se k léčebným a kosmetickým účelům. Vyniká svou schopností
 				zadržovat teplo. Parafín prohřívá, uvolňuje, zvyšuje krevní oběh a otevírá póry. Jeho účinky jsou zdravotní i estetické.</p>
-			<a href="@/assets/images/wax/parafin.jpg" data-lightbox="zabal" data-title="Parafafínový zábal">
-				<img src="@/assets/images/wax/parafin.jpg" alt="zabal" class="right">
-			</a>
+			<silentbox-single :src="require('@/assets/images/wax/parafin.jpg')" description="Kosmetika SynCare">
+				<img :src="require('@/assets/images/wax/parafin.jpg')" class="right">
+			</silentbox-single>
 
 			<h2>Účinky parafínového zábalu</h2>
 			<p>

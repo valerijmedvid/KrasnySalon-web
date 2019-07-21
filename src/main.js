@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueGtm from 'vue-gtm'
+import VueSilentbox from 'vue-silentbox'
 import router from './router'
 
 Vue.config.productionTip = false
@@ -11,6 +12,7 @@ Vue.use(VueGtm, {
   debug: false, // Whether or not display console logs debugs (optional)
   vueRouter: router, // Pass the router instance to automatically sync with router (optional)
 });
+Vue.use(VueSilentbox)
 
 new Vue({
   router,

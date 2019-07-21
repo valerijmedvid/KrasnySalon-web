@@ -11,8 +11,10 @@
       proto ke každé klientce <strong>přistupujeme individuálně</strong> a snažíme se vyjít vstříc přáním a požadavkům. Ke
       každému ošetření u nás <strong>zdarma obdržíte kávu nebo čaj</strong> a odpočinete si v příjemném prostředí.</p>
 
-    <a href="@/assets/images/home/salon1.jpg"><img src="@/assets/images/home/salon1.jpg" alt="salon1"></a>
-    <a href="@/assets/images/home/salon2.jpg"><img src="@/assets/images/home/salon2.jpg" alt="salon1"></a>
+    <silentbox-group>
+      <silentbox-item :src="require('@/assets/images/home/salon1.jpg')" description="Krasyn salon | Interiér"></silentbox-item>
+      <silentbox-item :src="require('@/assets/images/home/salon2.jpg')" description="Krasyn salon | Interiér"></silentbox-item>
+    </silentbox-group>
 
   </article>
 </template>

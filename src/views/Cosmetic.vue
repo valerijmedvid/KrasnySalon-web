@@ -4,9 +4,9 @@
 		<div class="services">
 
 			<h2>Co znamená SynCare?</h2>
-			<a href="@/assets/images/cosmetic/kosmetika1.jpg" data-lightbox="kosmetika" data-title="Kosmetika SynCare">
-				<img src="@/assets/images/cosmetic/kosmetika1.jpg" alt="kosmetika" class="right">
-			</a>
+			<silentbox-single :src="require('@/assets/images/cosmetic/kosmetika1.jpg')" description="Kosmetika SynCare">
+				<img :src="require('@/assets/images/cosmetic/kosmetika1.jpg')" class="right">
+			</silentbox-single>
 
 			<p>SynCare je spojení latinské předpony SYN - pro a anglického slova CARE – péče. Vyjadřuje přesvědčení, že kosmetika SynCare
 				by měla být významným celoživotním pomocníkem v péči o pleť ženy i muže. Správnou péčí o pleť a pokožku ovlivňujeme zdravotní
@@ -18,9 +18,9 @@
 				a bez parfémů. Vysokou úroveň přípravků potvrzují tisíce spolupracujících lékařů, lékáren a kosmetických salónů nejen
 				v ČR a SR, ale i v Německu, Rakousku, Velké Británii a Řecku.</p>
 
-			<a href="@/assets/images/cosmetic/kosmetika2.jpg" data-lightbox="kosmetika" data-title="Kosmetika SynCare">
-				<img src="@/assets/images/cosmetic/kosmetika2.jpg" alt="kosmetika" class="left">
-			</a>
+			<silentbox-single :src="require('@/assets/images/cosmetic/kosmetika2.jpg')" description="Kosmetika SynCare">
+				<img :src="require('@/assets/images/cosmetic/kosmetika2.jpg')" class="left">
+			</silentbox-single>
 
 			<p>Značka SynCare přináší na trh profesionální dermo a bio přípravky na hranici lékařské a estetické péče. Je určena pro
 				ošetření všech druhů pleti. Zvláště se zaměřuje na suchou citlivou pleť, dále na pleť s akné, zralou pleť a pleť s vrozenými

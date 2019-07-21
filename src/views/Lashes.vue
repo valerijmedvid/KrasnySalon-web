@@ -11,9 +11,9 @@
 			<p>Prodloužené řasy jsou vhodné i pro klientky, které mají vlastní řasy krátké nebo jemné a chtějí docílit mnohonásobně většího
 				objemu. Jsou odolné vůči vodě, to znamená, že běžné aktivity jako sport, sprchování či plavání nemají na jejich vzhled
 				a pevnost vliv.</p>
-      <a href="@/assets/images/lashes/rasy4.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy4.jpg" alt="rasy" class="right">
-			</a>
+			<silentbox-single :src="require('@/assets/images/lashes/rasy4.jpg')" description="Prodlužování řas">
+				<img :src="require('@/assets/images/lashes/rasy4.jpg')" class="right">
+			</silentbox-single>
 			
 			<h2>Jak dlouho prodloužené řasy vydrží?</h2>
 			<p>Prodloužené řasy se musejí průběžně doplňovat, z důvodu obnovy vlastních řas. Délka cyklu růstu řasy je průměrně 90 dní.
@@ -24,9 +24,9 @@
 				chráněny kolagenovou podložkou, ta během aplikace pečuje o pokožku. Na přírodní řasy jsou postupně aplikovány syntetické
 				řasy pomocí speciálního adheziva (lepidla), které je zdravotně nezávadné. Délka první aplikace se pohybuje v rozmezí
 				2-3 hodiny, záleží na hustotě řas. Doplnění trvá zhruba 1,5 hodiny. Celá aplikace je naprosto bezbolestná.</p>
-			<a href="@/assets/images/lashes/rasy2.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy2.jpg" alt="rasy" class="left">
-			</a>
+			<silentbox-single :src="require('@/assets/images/lashes/rasy2.jpg')" description="Prodlužování řas">
+				<img :src="require('@/assets/images/lashes/rasy2.jpg')" class="left">
+			</silentbox-single>
 
 			<h2>Jak o řasy pečovat?</h2>
 			<p>Prvních 24 hodin po aplikaci se vyhněte kontaktu s vodou, 48 hodin nenavštěvujte saunu. Řasové spoje by se po tak krátké
@@ -37,9 +37,9 @@
 			<p>
 				<strong>Veškeré informace ohledně aplikace a následné péče obdržíte při návštěvě salonu, kde Vám zodpovíme i případné dotazy.</strong>
 			</p>
-			<a href="@/assets/images/lashes/rasy3.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy3.jpg" alt="rasy" class="right">
-			</a>
+			<silentbox-single :src="require('@/assets/images/lashes/rasy3.jpg')" description="Prodlužování řas">
+				<img :src="require('@/assets/images/lashes/rasy3.jpg')" class="right">
+			</silentbox-single>
 
 			<h2>UPOZORNĚNÍ PRO KLIENTKY!</h2>
 			<p>Ráda bych všechny klientky upozornila, že pokud přicházíte s řasami od jiné stylistky, doplnění provádíme až po osobní
@@ -50,24 +50,24 @@
       <p>Cena aplikace nového setu objemového prodloužení řas je 990,- , v případě odstraňování práce jiné stylistky je to 1100,-
 				a doba aplikace může trvat až 3 hodiny. Cena doplnění se odvíjí podle týdnů. </p>
 
-      <a href="@/assets/images/lashes/rasy6.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy6.jpg" class="gallery" alt="rasy" >
-			</a>
-			<a href="@/assets/images/lashes/rasy8.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy8.jpg" class="gallery" alt="rasy" >
-			</a>
-			<a href="@/assets/images/lashes/rasy7.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy7.jpg" class="gallery" alt="rasy" >
-			</a>
-			<a href="@/assets/images/lashes/rasy5.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy5.jpg" class="gallery" alt="rasy" >
-			</a>
+			<silentbox-group>
+				<silentbox-item :src="require('@/assets/images/lashes/rasy6.jpg')" description="Krasyn salon | Prodlužování řas">
+					<img src="@/assets/images/lashes/rasy6.jpg" class="gallery">
+				</silentbox-item>
+				<silentbox-item :src="require('@/assets/images/lashes/rasy8.jpg')" description="Krasyn salon | Prodlužování řas">
+					<img src="@/assets/images/lashes/rasy8.jpg" class="gallery">	
+				</silentbox-item>
+				<silentbox-item :src="require('@/assets/images/lashes/rasy7.jpg')" description="Krasyn salon | Prodlužování řas">
+					<img src="@/assets/images/lashes/rasy7.jpg" class="gallery">
+				</silentbox-item>
+				<silentbox-item :src="require('@/assets/images/lashes/rasy5.jpg')" description="Krasyn salon | Prodlužování řas">
+					<img src="@/assets/images/lashes/rasy5.jpg" class="gallery">
+				</silentbox-item>
+				<silentbox-item :src="require('@/assets/images/lashes/rasy9.jpg')" description="Krasyn salon | Prodlužování řas">
+					<img src="@/assets/images/lashes/rasy9.jpg" class="gallery">
+				</silentbox-item>
+			</silentbox-group>
 			
-			
-			
-			<a href="@/assets/images/lashes/rasy9.jpg" data-lightbox="rasy" data-title="Prodlužování řas">
-				<img src="@/assets/images/lashes/rasy9.jpg" class="gallery" alt="rasy" >
-			</a>
 		</div>
   </article>
 </template>
