@@ -46,9 +46,7 @@
 				konzultaci, obzvlášť pokud máte prodloužení metodou řasa na řasu. Je totiž možné, že řasy nebudou v takovém stavu, který
 				umožní plnohodnotné doplnění. Není dobré mít na očích různé typy řas a adheziv. Po šetrném odstranění Vám aplikujeme
 				nový set řas s ohledem na stav řas přírodních.</p>
-			
-      <p>Cena aplikace nového setu objemového prodloužení řas je 990,- , v případě odstraňování práce jiné stylistky je to 1100,-
-				a doba aplikace může trvat až 3 hodiny. Cena doplnění se odvíjí podle týdnů. </p>
+		
 
 			<silentbox-group>
 				<silentbox-item :src="require('@/assets/images/lashes/rasy6.jpg')" description="Krasyn salon | Prodlužování řas">
