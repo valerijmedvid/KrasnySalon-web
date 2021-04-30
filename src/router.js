@@ -24,6 +24,12 @@ export default new Router({
       metadata: {title: "Úvod"}
     },
     {
+      path: '/uvod',
+      name: 'home',
+      component: Home,
+      metadata: { title: "Úvod", hide: true }
+    },
+    {
       path: '/sluzby',
       name: 'services',
       component: Services,

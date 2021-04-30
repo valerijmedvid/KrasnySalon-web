@@ -12,8 +12,7 @@
 
     <div class="contact">
       <p><strong>Krásný salon</strong><br>
-      Palackého tř. 49/14<br>
-      Pasáž Grand 2. patro<br>
+      Topolová 2151<br>
       Nymburk 288 02</p>
       <p><strong>Otevírací doba:</strong> dle objednání</p>
     </div>
